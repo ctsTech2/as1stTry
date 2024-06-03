@@ -1,2 +1,4 @@
 agency-swarm
 pyreadline3
+selenium
+gradio

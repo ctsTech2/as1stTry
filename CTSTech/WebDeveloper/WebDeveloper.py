@@ -5,7 +5,7 @@ class WebDeveloper(Agent):
     def __init__(self):
         super().__init__(
             name="WebDeveloper",
-            description="This agent focuses on implementing the design and functionality of the websites. It can navigate directories, write, read, and modify files, and execute terminal commands. It can communicate with the Designer.",
+            description="This agent focuses on implementing the design and functionality of the websites. It navigates directories, writes, reads, and modifies files, and executes terminal commands.",
             instructions="./instructions.md",
             files_folder="./files",
             schemas_folder="./schemas",
@@ -17,3 +17,4 @@ class WebDeveloper(Agent):
         
     def response_validator(self, message):
         return message
+

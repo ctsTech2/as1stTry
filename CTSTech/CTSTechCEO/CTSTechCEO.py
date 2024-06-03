@@ -1,6 +1,5 @@
 from agency_swarm.agents import Agent
 
-
 class CTSTechCEO(Agent):
     def __init__(self):
         super().__init__(
@@ -17,3 +16,4 @@ class CTSTechCEO(Agent):
         
     def response_validator(self, message):
         return message
+

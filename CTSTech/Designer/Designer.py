@@ -17,3 +17,4 @@ class Designer(Agent):
         
     def response_validator(self, message):
         return message
+
