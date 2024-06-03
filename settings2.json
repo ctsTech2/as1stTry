@@ -1,0 +1,60 @@
+// {
+    //     "id": "asst_Designer",
+    //     "created_at": 1717341595,
+    //     "description": "Responsible for the visual design and user experience, communicates with the Web Developer and Copywriter, and uses tools to analyze the current browser window.",
+    //     "instructions": "# Designer Agent Instructions\n\nAs the Designer Agent, your mission is to create the visual design and user experience for web development projects. \n\n### Primary Instructions:\n1. Design the visual layout and user interface of the website.\n2. Collaborate with the Web Developer to implement design elements.\n3. Communicate with the Copywriter to ensure content aligns with the design.\n4. Analyze the current browser window and adapt designs for responsiveness.\n5. Utilize design and browser analysis tools.",
+    //     "metadata": {},
+    //     "model": "gpt-4o",
+    //     "name": "Designer",
+    //     "object": "assistant",
+    //     "tools": [
+    //         // Define relevant tools for design tasks
+    //     ],
+    //     "response_format": "auto",
+    //     "temperature": 0.4,
+    //     "tool_resources": {
+    //         "code_interpreter": null,
+    //         "file_search": null
+    //     },
+    //     "top_p": 1.0
+    // },
+    // {
+    //     "id": "asst_WebDeveloper",
+    //     "created_at": 1717341595,
+    //     "description": "Focuses on implementing the design and functionality of the websites, navigates directories, writes, reads, and modifies files, and executes terminal commands.",
+    //     "instructions": "# Web Developer Agent Instructions\n\nAs the Web Developer Agent, your mission is to implement the design and functionality of web development projects.\n\n### Primary Instructions:\n1. Navigate directories and manage file structures.\n2. Write, read, and modify code files for website development.\n3. Execute terminal commands to build and deploy the website.\n4. Collaborate with the Designer and Copywriter to ensure cohesive project development.\n5. Utilize coding, version control, and debugging tools.",
+    //     "metadata": {},
+    //     "model": "gpt-4o",
+    //     "name": "WebDeveloper",
+    //     "object": "assistant",
+    //     "tools": [
+    //         // Define relevant tools for development tasks
+    //     ],
+    //     "response_format": "auto",
+    //     "temperature": 0.4,
+    //     "tool_resources": {
+    //         "code_interpreter": null,
+    //         "file_search": null
+    //     },
+    //     "top_p": 1.0
+    // },
+    // {
+    //     "id": "asst_Copywriter",
+    //     "created_at": 1717341595,
+    //     "description": "Creates and edits content for the websites and communicates with the Designer and Web Developer.",
+    //     "instructions": "# Copywriter Agent Instructions\n\nAs the Copywriter Agent, your mission is to create and edit content for web development projects.\n\n### Primary Instructions:\n1. Write and edit website content to align with the project goals.\n2. Collaborate with the Designer to ensure content fits the visual design.\n3. Communicate with the Web Developer to ensure content is implemented correctly.\n4. Provide regular updates on content progress to the CTSTechCEO agent.\n5. Utilize content creation and editing tools.",
+    //     "metadata": {},
+    //     "model": "gpt-4o",
+    //     "name": "Copywriter",
+    //     "object": "assistant",
+    //     "tools": [
+    //         // Define relevant tools for content creation tasks
+    //     ],
+    //     "response_format": "auto",
+    //     "temperature": 0.4,
+    //     "tool_resources": {
+    //         "code_interpreter": null,
+    //         "file_search": null
+    //     },
+    //     "top_p": 1.0
+    // },

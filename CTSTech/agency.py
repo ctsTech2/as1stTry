@@ -1,14 +1,25 @@
 from agency_swarm import Agency
+from ToolMaker import ToolMaker
 from CTSTechCEO import CTSTechCEO
 from Designer import Designer
 from WebDeveloper import WebDeveloper
 from Copywriter import Copywriter
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Ensure the OpenAI API key is set
+if 'OPENAI_API_KEY' not in os.environ:
+    raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
 
 # Instantiate the agents
 ctstech_ceo = CTSTechCEO()
 designer = Designer()
 web_developer = WebDeveloper()
 copywriter = Copywriter()
+tool_creator = ToolCreator()
 
 # Create the agency with the defined agents
 agency = Agency(
